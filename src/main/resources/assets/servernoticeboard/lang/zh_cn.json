@@ -1,0 +1,6 @@
+{
+  "command.notice.help": "用法: /notice set|list|clear|send|sendall|reload",
+  "command.notice.added": "添加成功",
+  "command.notice.cleared": "公告已清空",
+  "command.notice.reloaded": "配置重新加载成功"
+}

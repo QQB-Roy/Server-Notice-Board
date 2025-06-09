@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "servernoticeboard",
+  "version": "1.0.0",
+  "name": "Server Notice Board",
+  "description": "一个用于服务器公告的模组",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["com.example.servernoticeboard.ServerNoticeBoardMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.16.5",
+    "java": ">=8"
+  }
+}

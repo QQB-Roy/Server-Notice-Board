@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "id": "servernoticeboard",
-  "version": "1.0.0",
+  "version": "${version}",
   "name": "Server Notice Board",
-  "description": "一个用于服务器公告的模组",
+  "description": "A server-side only mod for managing notices.",
   "authors": ["YourName"],
+  "contact": {},
   "license": "MIT",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
-    "main": ["com.example.servernoticeboard.ServerNoticeBoardMod"]
+    "main": ["com.example.servernoticeboard.ServerNoticeBoard"]
   },
   "depends": {
-    "fabricloader": ">=0.11.6",
+    "fabricloader": ">=0.9.0",
     "fabric": "*",
-    "minecraft": "1.16.5",
-    "java": ">=8"
+    "minecraft": "1.16.1"
   }
 }
